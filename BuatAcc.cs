@@ -10,25 +10,16 @@ using System.Windows.Forms;
 
 namespace Project_Kel5_Manajemen_Travel_Customer
 {
-    public partial class Login : Form
+    public partial class BuatAcc : Form
     {
-        public Login()
+        public BuatAcc()
         {
             InitializeComponent();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
-
-        private void lblBuatAcc_Click(object sender, EventArgs e)
-        {
-            BuatAcc buatAcc = new BuatAcc();
-            buatAcc.ShowDialog();
-            this.Close();
-        }
-
-        
     }
 }
